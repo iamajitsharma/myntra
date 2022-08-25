@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .containerHeader{ 
+    padding: 0 5vw; 
+  }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 14px;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+    padding-left: 20px;
+}
+nav ul li{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+.myntra-logo{
+    width: 64px;
+    height: 64px;
+}
+.right{
+    display: flex;
+}
+.search{
+    width: 30vw;
+    padding: 3px 17px;
+    border: none;
+    background: #f0f2f3f1;
+    border-radius: 5px;
+}
+
+
+.rightBox{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    gap:30px;
+   
+    
+  }
+
+   .profile, .wishlist, .cart-holder{
+    padding-right: 10px;;
+    font-size: 14px;
+    text-align: center;
+    
+  }
+  .profile, .wishlist, .cart-holder img{
+    width:20px;
+    text-align: center;
+    
+  }
+
+ 
